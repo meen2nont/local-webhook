@@ -1,4 +1,4 @@
-# My Node.js Server
+# Sample Webhook Node.js Server
 
 This is a simple Node.js server with CORS enabled and a webhook route.
 
@@ -11,8 +11,8 @@ This is a simple Node.js server with CORS enabled and a webhook route.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/meen2nont/local-webhook.git
+    cd local-webhook
     ```
 
 2. Install the dependencies:
@@ -29,7 +29,7 @@ This is a simple Node.js server with CORS enabled and a webhook route.
 
 2. The server will be running on port `9009` by default. You can change the port by setting the `PORT` environment variable:
     ```sh
-    PORT=8080 npm start
+    PORT=9009 npm start
     ```
 
 ## Project Structure
@@ -39,7 +39,7 @@ This is a simple Node.js server with CORS enabled and a webhook route.
 
 ## API Endpoints
 
-- `POST /webhook`: Endpoint to handle webhook events.
+- `POST /api/v1/webhook`: Endpoint to handle webhook events.
 
 ## CORS
 
