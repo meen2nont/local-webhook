@@ -1,5 +1,3 @@
-const express = require('express')
-
 module.exports = (app) => {
     const webhookController = require('../controllers/webhookController')
     
