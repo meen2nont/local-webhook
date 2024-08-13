@@ -1,0 +1,25 @@
+{
+  "name": "stripe-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "reset": "rm -rf node_modules",
+    "reinstall": "rm -rf node_modules && npm i",
+    "security:fix": "npm audit fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "helmet": "^4.4.0",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
